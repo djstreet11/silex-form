@@ -2,5 +2,4 @@
 example of silex
 
 
-SignIn and SignOut with session
-form
+SignIn and SignOut with session, forms
