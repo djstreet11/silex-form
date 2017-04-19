@@ -1,0 +1,11 @@
+<a href="{{ path('index') }}">main</a>
+
+
+<form method="post">
+    {{ form_widget(form) }}
+</form>
+
+
+{% if res == 'fail' %}
+    <p>FAIL</p>
+{% endif %}
