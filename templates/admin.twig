@@ -1,3 +1,13 @@
 Welcome {{ name }} <br>
 <a href="{{ path('exit') }}">exit</a>
 <a href='/'>main</a>
+
+<form method="post">
+    {{ form_widget(form) }}
+</form>
+
+
+
+{% if res is defined%}
+    {{ dump(res) }}
+{% endif %}
